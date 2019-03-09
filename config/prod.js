@@ -1,3 +1,5 @@
+console.log('kikky');
+console.log(process.env.GOOGLE_CLIENT_ID);
 module.exports = {
   googleClientID: process.env.GOOGLE_CLIENT_ID,
   googleClientSecret: process.env.GOOGLE_CLIENT_SECRET,
